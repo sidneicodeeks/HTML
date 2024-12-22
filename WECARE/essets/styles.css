@@ -1,0 +1,126 @@
+.link-header {
+    width: 79px;
+    height: 29px;
+    margin-top: 10px;
+    margin-right: -30px;
+    margin-left: 70px;
+    display: inline-block;
+    cursor: pointer;
+    color: #515151;
+}
+
+h1 {
+    display: inline;
+    position: fixed;
+    width: 313px;
+    font-size: 50px;
+    font-weight: 800;
+    top: 160px;
+    left: 690px;
+    color: #515151;
+
+}
+
+h2 {
+    display: inline-block;
+    position: fixed;
+    width: 385px;
+    height: 19px;
+    font-size: 36px;
+    top: 226px;
+    left: 695px;
+    color: #515151;
+}
+
+p {
+    display: inline-block;
+    position: fixed;
+    width: 398px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    top: 314px;
+    left: 620px;
+
+}
+
+.imagem {
+    position: absolute;
+    display: inline-block;
+    width: 490px;
+    top: 120px;
+    left: 60px;
+}
+
+.botao-1 {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #665AE1;
+    border-color: #665AE1;
+    margin-left: 70px;
+
+}
+
+.botao-2 {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    top: 472px;
+    left: 750px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #ADFF00;
+    border-color: #ADFF00;
+    color: #000000;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    .botao-1 {
+        left: 300px;
+    }
+
+    .imagem {
+        display: block;
+        position: absolute;
+        width: 360px;
+        top: 170px;
+        left: 60px;
+    }
+
+    h1 {
+        display: block;
+        position: fixed;
+        top: 500px;
+        left: 120px;
+    }
+
+    p {
+        display: none;
+    }
+
+    h2 {
+        display: block;
+        position: fixed;
+        top: 570px;
+        left: 123px;
+    }
+
+    .botao-2 {
+        display: block;
+        position: fixed;
+        left: 180px;
+        top: 660px;
+    }
+}

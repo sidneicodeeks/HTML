@@ -1,0 +1,194 @@
+<html>
+<img src="./endereçodaimagem">
+
+<!--acessar imagem em um mesmo  nível de armazenamento-->
+
+<img src="../dadosimagem">
+
+<!--Acessar imagens 2 niveis acima-->
+
+<img src="../../dadosimagem">
+
+<!-- Acessar imagens de outros niiveis acima. A cada 2 pontos/barra, um nível acima-->
+
+
+<a href="https://www.google.com.br/" target="_blank">"Clica em mim por favor"</a>
+
+<!--link direcionando a uma nova pagina-->
+
+<a href="mailto:sidneirosa.poa@gmail.com">Envie sua Mensagem pra nós</a>
+
+<!--Esta tag cria um link direto para um provedor de e-mail-->
+
+<a href="tel:+5551980195622">Me liga!</a>
+
+<!--link para ligação direta pre selecionada-->
+
+<!--LISTAS ORDENADAS-->
+
+<h2>4 serie B</h2>
+<ol> <!--ol=lista ordenada-->
+    <li>Ana</li>
+    <li>Bernardo</li>
+    <li>Cecília</li>
+</ol>
+
+<!--LISTAS NÃO ORDENADAS-->
+
+<h2>Lista de Compras</h2>
+<ul>
+    <li>abacate</li>
+    <li>alface</li>
+    <li>tomates</li>
+    <li>rúcula</li>
+</ul>
+
+<!--ELEMENTOS ESTRUTURAIS-->
+
+<div></div> <!-- uma div é uma caixa usados para agrupar, separar conteúdos-->
+<span></span> <!--um espaço, um vão, uma caixa menor para diferenciar texto (cor, tamanho..)-->
+
+<!--IMAGENS NO HTML-->
+
+<img src="https://s2-ge.glbimg.com/DESMIhc6ytq1nSjTuRUYOZufR8Q=/0x0:1254x837/984x0/smart//>/>filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/Y/I/RDLR8BSuKBfpuatURMiQ/abacate.jpg"
+    alt="foto de um abacate" height="200px
+    " />
+
+<figure>
+    <img></img>
+    <figcaption>Abacate, rico em propleno</figcaption>
+</figure>
+
+<!--TABELAS  th= cabeçalho  td= corpo das tabelas-->
+
+<table border="4" cellpadding="10" bordercolor="red">
+    <tr>
+        <th>Tipo</th>
+        <th>Valor</th>
+        <th>Data</th>
+    </tr>
+    <tr>
+        <td>Alimentação</td>
+        <td>R$30,00</td>
+        <td>05/12/2024</td>
+    </tr>
+    <tr>
+        <td>Combustivel</td>
+        <td>R$90,00</td>
+        <td>06/12/2024</td>
+    </tr>
+</table>
+
+<!--COLOCANDO VIDEOS NO html-->
+
+<video src="./(nomedovideo.extenção)" controls controlsList="nodowload" autoplay muted poster="./capa.jpg"></video>
+
+<!--PARA USAR VARIOS FORMATOS DE VIDEOS E CONPABILIDADES USAR TAG:-->
+
+<video>
+    <source src="./video.mkv">
+    <source src="./video.mp4">
+    <source src="./video.mov">
+</video>
+
+<!--COLOCAR SITE DENTRO DO SITE TAG IFRAME youtube, google maps ...-->
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D9mT_Qf1QD4?si=YsfuABoZA3_U2Tdk"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--INPUTS -->
+
+<label>
+    Rua:
+    <input autocomplete="street-address" readonly placeholder="Digite sua Rua" autofocus />
+</label>
+<!--ESTE COLOCA COR NO INPUT -->
+<input type="green" />
+<!--ESTE COLOCA BARRINHA QUE MOVIMENTA-->
+<input type="range" min="50" max="500" value="200" />
+
+<!--INPUT TIPO SENHA (PASSWORD)-->
+<input type="password" aotofocus />
+
+<!--só recebe EMAIL-->
+<input type="email" autofocus />
+<!--TIPO CHECK LIST (BOX)-->
+
+<label>
+    Molho Extra?
+    <input type="checkbox" autofocus />
+</label>
+
+<label>
+    Queijo Coalho?
+    <input type="checkbox" autofocus />
+</label>
+
+<!--DO TIPO BAIXADOR DE ARQUIVOS (1 formato especifico ou todos)-->
+
+<input type="file" multiple accept=".jpeg" accept="video/*" />
+<!--DO TIPO QUE SÓ ACEITA NUMEROS-->
+
+<input type="number" autofocus />
+
+<!--SÓ ACEITA DATAS-->
+
+<input type="date" autofocus />
+
+<!--multiplas opçoes COM ESCOLHA UNICA-->
+
+<h2>Qual sua rede social favorita?</h2>
+<br>
+
+<label for="facebook">facebook</label>
+<input type="radio" id="facebook" name="redes-sociais" />
+
+<label for="instagram">Instagram</label>
+<input type="radio" id="instagram" name="redes-sociais" />
+
+<label for="youtube">Youtube</label>
+<input type="radio" id="youtube" name="redes-sociais" />
+
+<label for="twitter">X</label>
+<input type="radio" id="twitter" name="redes-sociais" />
+
+<!--FORMULÁRIOS (FORMS)-->
+<form action="destinatario(bancoDados)"> //envia servidor//
+    <form method="get"></form> //envia pela url as informações//
+    <form method="post"></form> //envia por baixo dos panos//
+    <h1>Digite seu endereço:</h1>
+    <label>
+        Rua:
+        <input type="text" name="rua" autocomplete="street-address" />
+    </label>
+
+    <label>
+        Número:
+        <input type="text" name="numero" autocomplete="cc-number" />
+    </label>
+    <button type="submit">Enviar Dados</button>
+</form>
+
+<!--BOTOES uma das opções mais usadas-->
+
+<button type="button" onclick="açãoJs">ENVIAR</button>
+
+<!--IDENTAÇÃO DE CÓDIGO - botão direito dentro
+do Vscode e formatar documento * sugestão sempre
+pular linha pra deixar o código limpo -->
+
+<!--HTML semântico - marcação de tags para ser
+lido por google, leitor de tela e rankeamento-->
+
+<!-- HEADER - cabeçalho
+     NAV - nave central abaixo cabeçalho
+     SECTION - seção principal
+     ASIDE - seção lateraL entre nav e footer
+     ARTICLE   -   seção abaixo da section
+     FOOTER - rodapé --> 
+
+
+</html>

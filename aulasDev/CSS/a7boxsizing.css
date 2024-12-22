@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box; /*delimita todas as medidas respeitando o tamanho da caixa */
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    padding: 20px;
+    border: dashed; /*tracejado*/
+    border-color: red;
+    cursor: pointer;
+    text-align: center;
+
+}

@@ -1,0 +1,15 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #FF1493;
+    margin: 20px; 
+    padding: 50px; /* expande de dentro para fora */
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 20px; /*temos margin top, botton, right e left*/
+    padding: 150px; /* top, botton, right e  left*/
+}

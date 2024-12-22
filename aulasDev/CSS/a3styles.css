@@ -1,0 +1,25 @@
+/* O * é um seletor que engloba TUDO o que estiver
+dentro da pagina e da as mesmas propriedades pra tudo */
+
+
+* {
+    background: blue;
+}
+
+.texto {
+    color: red;
+    font-size: 35px; /*tamanho da fonte*/
+    font-weight: bold; /*fonte negrito*/
+}
+
+#botao1 {
+    background: green;
+    cursor: pointer;  /*maosinha*/
+    border-radius: 20px; /*borda arredondada*/
+}
+
+#botao2 {
+    background: orange;
+    cursor: pointer;
+    border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+/* DISPLAY
+
+-- BLOCK - padrão, não informando
+-- INLINE - Em linha, não aceita informar height e width 
+  ou seja, não posso escolher altura e largura
+-- INLINE-BLOCK - Mistura dos 2. vai ser em linha,
+porém aceita definições */
+
+.box {
+    background: #ff1395;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 50px;
+}
+
+.box-2 {
+    background: #ffff00;
+}
+
+.box-3 {
+    background: #0003ff;
+}

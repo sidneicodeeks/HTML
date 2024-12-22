@@ -1,0 +1,29 @@
+.playwrite-ro-guides-regular {
+    font-family: "Playwrite RO Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+h1 {
+    color: blueviolet;  /*cor da fonte*/
+    font-size: 64px; /*tamanho da fonte*/
+    font-style: italic; /*formato da fonte, estilo*/
+    line-height: 130px; /*altura da linha*/
+    letter-spacing: 25px; /*espaçamento entre as letras*/
+    word-spacing: 20px;/* espaço entre palavras*/
+    text-align: center; /*alinhamento das palavras*/
+    text-transform: uppercase; /*transforma maiusculas/minusculas/primeira maiuscula*/
+    text-decoration: underline; /*coloca linhas no texto*/    
+    text-shadow: 10px 10px 10px 30px red /*coloca SOMBRA no texto*/
+}
+
+p {
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: 900; /*peso da espessura da fonte*/
+    font-family: Playwrite Ro Guides, sans-serif; /*buscar no google fonts e baixar */
+    text-shadow: 10px 10px 10px 50px  aqua;
+}
+

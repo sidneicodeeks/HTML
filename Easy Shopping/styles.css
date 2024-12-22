@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.link-header {
+    width: 376px;
+    height: 41.12px;
+    font-family: Oswald;
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 1060px;
+    margin-right: 50px;
+}
+
+#link-header {
+    opacity: 40%;
+}
+
+.retangulo-aside {
+    width: 491px;
+    height: 700px;
+    left: 1025px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+
+.phone {
+    display: inline-block;
+    position: absolute;
+    width: 240.3px;
+    height: 408.04px;
+    top: 230px;
+    left: 1060px;
+}
+
+.person {
+    display: inline-block;
+    position: absolute;
+    width: 100.54px;
+    height: 289.33px;
+    top: 350px;
+    left: 900px;
+}
+
+button {
+    display: block;
+    position: absolute;
+    width: 249px;
+    height: 58px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 25px;
+    border-color: transparent;
+    background: #9499EA;
+    top: 550px;
+    left: 90px;
+    cursor: pointer;
+}
+
+p {
+    Width: 540px;
+    Height: 144px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: justify;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 90px;
+    margin-top: 310px;
+    color: #5D5D7D;
+    
+}
+
+h1 {
+    color: #5D5D7D;
+    font-family: Oswald;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    width: 368px;
+    height: 160px;
+    top: 180px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    .retangulo-aside {
+        width: 500px;
+        height: 500px;
+        left: 00px;
+        display: block;
+        position: relative;
+        top: 525px;
+    }
+
+    h1 {
+        color: #5D5D7D;
+        font-family: Oswald;
+        font-size: 49px;
+        font-weight: 400;
+        line-height: 70px;
+        text-align: center;
+        width: 314px;
+        height: 104px;
+        top: 75px;
+        margin-left: 80px;
+        position: absolute;
+    }
+
+    p {
+        Width: 296px;
+        Height: 96px;
+        font-family: Oswald;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-left: 90px;
+        margin-top: -268px;
+        color: #5D5D7D;
+        }
+
+        button {
+            display: block;
+            position: absolute;
+            width: 269px;
+            height: 62px;
+            color: white;
+            font-size: 24px;
+            font-weight: 400;
+            border-radius: 25px;
+            border-color: transparent;
+            background: #9499EA;
+            top: 370px;
+            left: 110px;
+            cursor: pointer;
+        }
+
+        .phone {
+            display: inline-block;
+            position: absolute;
+            width: 240.3px;
+            height: 408.04px;
+            top: 580px;
+            left: 200px;
+        }
+        
+        .person {
+            display: inline-block;
+            position: absolute;
+            width: 90px;
+            height: 289.33px;
+            top: 690px;
+            left: 80px;
+        }
+
+
+
+}
